@@ -23,6 +23,7 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  font-variation-settings: "wght" 400;
 }
 .header {
   display: flex;
@@ -63,8 +64,7 @@
   max-inline-size: 1440px;
   width: var(--container-width);
 }
-.card {
-}
+
 .watermark {
   position: relative;
   display: inline-block;
@@ -208,6 +208,7 @@ button {
   z-index: 2;
 }
 .icon {
+  flex-shrink: 0;
   position: relative;
   color: var(--text-color);
   mix-blend-mode: difference;
@@ -238,9 +239,7 @@ button {
   line-height: 90%;
   position: relative;
 }
-.icon {
-  flex-shrink: 0;
-}
+
 #dialog-id {
   padding: 0;
 }
@@ -347,8 +346,6 @@ button {
   }
 }
 
-@media (width <= 375px) {
-}
 @media (width > 1440px) {
   .footer-button {
     flex-direction: row;
