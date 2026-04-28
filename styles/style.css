@@ -69,8 +69,6 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
-
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -256,7 +254,6 @@ button {
   max-width: 353px;
   padding: 30px 40px 30px 40px;
 }
-
 .svg-text {
   display: flex;
   align-items: center;
