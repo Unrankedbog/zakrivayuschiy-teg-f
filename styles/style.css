@@ -23,7 +23,6 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  font-variation-settings: "wght" 400;
 }
 .header {
   display: flex;
@@ -246,7 +245,6 @@ button {
 }
 .dialog-window {
   display: flex;
-  padding: 0;
   justify-content: center;
   align-items: center;
   flex-direction: column;
